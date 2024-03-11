@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/01 11:05:45 by iescalon          #+#    #+#             */
-/*   Updated: 2024/03/07 13:02:09 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/03/11 14:05:53 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,4 +119,3 @@ int	main(void)
 	close(fd);
 	return (0);
 }
-

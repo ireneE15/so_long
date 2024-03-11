@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/10 14:26:36 by iescalon          #+#    #+#             */
-/*   Updated: 2024/03/07 12:56:45 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/03/11 14:06:06 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ typedef struct s_list
 	void			*content;
 	struct s_list	*next;
 }					t_list;
-
 
 size_t	ft_strlen(const char *str);
 int		ft_atoi(const char *str);
