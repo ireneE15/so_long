@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 11:23:50 by iescalon          #+#    #+#             */
-/*   Updated: 2024/03/12 15:25:46 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/03/13 12:49:44 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,18 @@
 #include "ft_printf/ft_printf.h"
 #include "mlx/mlx.h"
 #include <stdbool.h>
-#define W 13
-#define A 0
-#define S 1
-#define D 2
-#define ESC 
+#define W 'w'
+#define A 'a'
+#define S 's'
+#define D 'd'
+#define ESC 100
+
+typedef struct s_player
+{
+	int		x;
+	int		y;
+	int		moves;
+	bool	exit;
+} t_player;
 
 #endif
