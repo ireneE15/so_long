@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 11:23:50 by iescalon          #+#    #+#             */
-/*   Updated: 2024/03/13 13:13:58 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/03/13 13:56:08 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,6 @@ typedef struct s_player
 	int		y;
 	int		moves;
 	bool	exit;
-} t_player;
+}	t_player;
 
 #endif
