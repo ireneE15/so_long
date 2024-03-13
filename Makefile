@@ -6,7 +6,7 @@
 #    By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/07 14:07:10 by iescalon          #+#    #+#              #
-#    Updated: 2024/03/11 11:39:58 by iescalon         ###   ########.fr        #
+#    Updated: 2024/03/13 13:02:48 by iescalon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ MLX_PATH		:= mlx
 LIBFT_PATH		:= libft_gnl
 FT_PRINTF_PATH	:= ft_printf
 INCLUDE			:= src/so_long.h
-SRC				:=
+SRC				:= src/map.c
 
 all: $(NAME)
 
