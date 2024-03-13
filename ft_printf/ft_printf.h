@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/23 10:55:10 by iescalon          #+#    #+#             */
-/*   Updated: 2024/01/24 14:14:26 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/03/13 13:16:45 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 # include <stdio.h>
 
 int	ft_putchar(int c);
-int	ft_strlen(const char *s);
 int	ft_putstr(char *s);
 int	ft_printf(const char *s, ...);
 int	ft_putnbr(int nbr);
