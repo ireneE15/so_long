@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 13:00:20 by iescalon          #+#    #+#             */
-/*   Updated: 2024/03/13 13:55:42 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/03/13 14:05:06 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	main(void)
 {
-	void	*mlx_ptr;
-	void	*win_ptr;
+	void	*mlx_ptr; // Puntero a la estructura del mapa
+	void	*win_ptr; // Puntero a la ventana
 
 	mlx_ptr = mlx_init();
 	if (mlx_ptr == NULL)
